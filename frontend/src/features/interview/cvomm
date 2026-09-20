@@ -1,0 +1,82 @@
+{
+  _id: ObjectId('6aa032a50247f44c08181e23'),
+  matchScore: NumberInt('85'),
+  technicalQuestions: [
+    {
+      question: 'Can you explain how Shopify Liquid works and how you used it to customize merchant landing pages?',
+      intention: 'To evaluate the candidate\'s practical experience with Shopify customization, frontend technologies, and understanding of e-commerce platforms.',
+      answer: 'Mention your experience at Appstle Inc. Explain that Liquid is Shopify\'s template language used to load dynamic content on storefronts. Talk about how you combined HTML, CSS, and Liquid to modify themes, optimize page layouts, and enhance UI/UX to drive higher conversions.'
+    },
+    {
+      question: 'How do you handle API integration failures or rate limits when fetching real-time data, as seen in your Currency Converter project?',
+      intention: 'To test robustness, error-handling capabilities, and understanding of asynchronous JavaScript and external APIs.',
+      answer: 'Discuss the use of try-catch blocks with async/await, implementing fallback mechanisms or cached data when the external API fails, and handling HTTP status codes appropriately.'
+    },
+    {
+      question: 'What is the difference between supervised and unsupervised learning, and which evaluation metrics did you use during your AI/ML internship?',
+      intention: 'To verify the depth of knowledge gained during the Edunet Foundation internship.',
+      answer: 'Explain that supervised learning uses labeled data for training (like regression and classification), while unsupervised learning deals with unlabeled data (clustering). Mention metrics like accuracy, precision, recall, and F1-score used for classification models.'
+    }
+  ],
+  behavioralQuestions: [
+    {
+      question: 'Tell me about a time when you had to support a frustrated customer with a complex technical issue.',
+      intention: 'To assess customer support skills, empathy, patience, and problem-solving abilities demonstrated during merchant success roles.',
+      answer: 'Use the STAR method. Describe the situation at Appstle Inc. where a merchant faced a store performance or integration issue, the steps you took to replicate and diagnose the problem, and how you communicated clearly to resolve it and retain the customer.'
+    },
+    {
+      question: 'How do you manage your time when juggling multiple merchant tickets and development tasks?',
+      intention: 'To evaluate prioritization, organizational skills, and multitasking efficiency.',
+      answer: 'Explain your approach to prioritizing urgent vs. routine issues, using tools effectively, and setting clear expectations with stakeholders or merchants.'
+    }
+  ],
+  skillGaps: [
+    {
+      skill: 'Advanced System Design',
+      severity: 'medium'
+    },
+    {
+      skill: 'Backend Frameworks (e.g., Express or Django)',
+      severity: 'low'
+    }
+  ],
+  preparationPlan: [
+    {
+      day: '1',
+      focus: 'Shopify and E-commerce Fundamentals',
+      tasks: [
+        'Review Shopify Liquid documentation and theme architecture.',
+        'Brush up on common merchant pain points regarding subscriptions, bundles, and checkouts.'
+      ]
+    },
+    {
+      day: '2',
+      focus: 'Frontend and JavaScript Refresher',
+      tasks: [
+        'Review asynchronous JavaScript, Fetch API, and error handling.',
+        'Revisit your Currency Converter project code to explain architectural decisions fluently.'
+      ]
+    },
+    {
+      day: '3',
+      focus: 'Customer Success and Troubleshooting',
+      tasks: [
+        'Prepare STAR format examples from your experience at Appstle Inc.',
+        'Practice explaining technical concepts simply to non-technical stakeholders.'
+      ]
+    },
+    {
+      day: '4',
+      focus: 'Mock Interview and Final Review',
+      tasks: [
+        'Conduct a mock interview focusing on both technical support scenarios and coding concepts.',
+        'Review resume bullet points to ensure accurate and confident delivery.'
+      ]
+    }
+  ],
+  user: ObjectId('6a84a39bb4a64a9012a1256b'),
+  title: 'Merchant Success Engineer / Frontend Developer',
+  createdAt: ISODate('2026-09-08T16:07:01.368Z'),
+  updatedAt: ISODate('2026-09-08T16:07:01.368Z'),
+  __v: NumberInt('0');
+}

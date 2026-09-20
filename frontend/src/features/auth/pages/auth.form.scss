@@ -1,0 +1,29 @@
+@use '../../../styles/button';
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+  
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+  }
+ 
+}
