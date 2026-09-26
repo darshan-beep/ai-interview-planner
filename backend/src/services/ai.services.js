@@ -32,6 +32,7 @@ const interviewReportSchema = z.object({
 async function generatePdfFromHtml(htmlContent) {
   const browser = await puppeteer.launch({
     headless: "new",
+        executablePath:'C:/Users/win/AppData/Local/Google/Chrome/Application/chrome.exe',
     args: ["--no-sandbox", "--disable-setuid-sandbox"] // needed on most Linux servers/Render/Vercel-style hosts
   });
 
