@@ -1,11 +1,22 @@
 import React from 'react';
-import '../styles/home.scss';
+import '../styles/Home.scss';
 import { useinterview } from '../hooks/useinterview';
 import { useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../../auth/hooks/use.auth';
+
 
 const Home = () => {
     const navigate = useNavigate();
+
+    
+    const { handlelogout } = useAuth();
+    // ...your existing code...
+
+    const onLogout = async () => {
+        await handlelogout();   // clears the cookie, blacklists the token, sets User to null
+        navigate('/login');
+    };
     const{loading,generatereport,reports} = useinterview();
     const[jobdescription,setjobdescription] = useState("");
     const[selfdescription,setselfdescription] = useState("");
@@ -24,6 +35,9 @@ const Home = () => {
     }
     return (
         <main className="interview-page">
+            <button type="button" className="logout-button" onClick={onLogout}>
+        Logout
+    </button>
             <section className="interview-card">
                 <header className="page-header">
                     <h1>

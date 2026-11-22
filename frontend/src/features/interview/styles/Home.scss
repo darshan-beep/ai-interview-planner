@@ -320,6 +320,27 @@ textarea {
     }
 }
 
+.logout-button {
+  position: fixed;
+  top: 8px;
+  right: 24px;
+  z-index: 1000;
+  width: auto;
+  padding: 8px 20px;
+  border: 1px solid #ff1f6b;
+  border-radius: 10px;
+  background:#d10a87;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background: #ff1f6b;
+    color: #fff;
+  }
+}
+
 @media (max-width: 700px) {
     .interview-page {
         padding: 20px 12px;
