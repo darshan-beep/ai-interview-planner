@@ -171,7 +171,7 @@ Contributions are welcome.
 
 ## License
 
-Distributed under the ISC License.
+Distributed under the MIT License.
 
 ## Author
 
